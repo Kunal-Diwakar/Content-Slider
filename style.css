@@ -45,7 +45,7 @@ img {
     position: absolute;
     width: 250px;
     height: 150vh;
-    /* filter: saturate(0); */
+    filter: saturate(0); 
 }
 
 .slider-img img {
