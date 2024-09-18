@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const newSlideImg1 = document.createElement("div");
       newSlideImg1.className = "slider-img slide-img-1";
       const img1 = document.createElement("img");
-      img1.src = `/Assets/Img/slider-${(activeSlide % totalImages) + 4}.jpg`; // Looping images
+      img1.src = `./Assets/Img/slider-${(activeSlide % totalImages) + 4}.jpg`; // Looping images
       img1.style.top = "100%"; // Start at the bottom for animation
       newSlideImg1.appendChild(img1);
       newSlide.appendChild(newSlideImg1);
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const newSlideImg2 = document.createElement("div");
       newSlideImg2.className = "slider-img slide-img-2";
       const img2 = document.createElement("img");
-      img2.src = `/Assets/Img/slider-${(activeSlide % totalImages) + 2}.jpg`; // Same loop logic
+      img2.src = `./Assets/Img/slider-${(activeSlide % totalImages) + 2}.jpg`; // Same loop logic
       img2.style.top = "100%"; // Start at the bottom for animation
       newSlideImg2.appendChild(img2);
       newSlide.appendChild(newSlideImg2);
